@@ -1,21 +1,23 @@
 body{ 
     margin: 0px;
-    background-color: black; 
+    background-color: black;
+    width: 3000px;
     }
     
     p{ 
         color: antiquewhite; 
         padding: 10px; 
+        margin-left: 470px;
         width: 300px; 
         border: solid antiquewhite 5px; 
         border-radius: 10px; 
         font-style: normal; 
         font-weight: bold; 
-        position: relative; 
-        left: 470px; 
+        position: sticky; 
+        left: 0px;
     } 
     
-    #japanFlag{ 
+     #japanFlag{ 
         width: 450px; 
         height: 300px; 
         background-color: white; 
@@ -23,7 +25,7 @@ body{
         margin: 30px; 
     } 
     
-    #redCircle{ 
+     #redCircle{ 
         width: 180px; 
         height: 180px; 
         background-color: rgb(234, 19, 19); 
@@ -31,4 +33,40 @@ body{
         position: absolute; 
         left: 135px; 
         top: 60px; 
+    }
+
+    #swedenFlag{
+        width: 450px; 
+        height: 300px; 
+        background-color: rgb(32, 107, 226); 
+        position: absolute;
+        left: 500px;
+        top: 93px;
+    }
+
+    #crossHorizontal{
+        width: 56.2px;
+        height: 300px;
+        background-color: rgb(255, 255, 0);
+        position: absolute;
+        left: 140.5px;
+    }
+
+    #crossVertical{
+        width : 450px;
+        height: 56.2px;
+        background-color: rgb(255, 255, 0);
+        position: absolute;
+        top : 105px;
+    }
+
+    span{
+
+        color: antiquewhite;
+        padding: 5px;
+        font-style: normal;
+        font-size: large;
+        position: absolute;
+        top: 305px;
+        left: 190px;
     }
