@@ -1,7 +1,7 @@
 body{ 
     margin: 0px;
     background-color: black;
-    width: 3000px;
+    box-sizing: border-box;
     }
     
     p{ 
@@ -12,9 +12,7 @@ body{
         border: solid antiquewhite 5px; 
         border-radius: 10px; 
         font-style: normal; 
-        font-weight: bold; 
-        position: sticky; 
-        left: 0px;
+        font-weight: bold;
     } 
     
      #japanFlag{ 
@@ -69,4 +67,40 @@ body{
         position: absolute;
         top: 305px;
         left: 190px;
+    }
+
+    #laosFlag{
+        position: absolute;
+        left: 970px;
+        top : 93px;
+    }
+
+     .box{ 
+        width: 450px;
+    }
+
+    .first{
+        height: 75px;
+        background-color: rgb(167, 22, 22);
+    }
+
+    .second{
+        height: 150px;
+        background-color: rgb(15, 15, 156);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #circle{
+        width: 120px;
+        height: 120px;
+        background-color: white;
+        border-radius: 100px;
+    }
+
+    .third{
+        height: 75px;
+        background-color: rgb(167, 22, 22);
     }
